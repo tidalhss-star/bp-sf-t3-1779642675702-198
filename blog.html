@@ -1,247 +1,245 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 성우이벤트 블로그 | 강남 셔츠룸 분석 가이드</title>
-    <meta name="description" content="마포 지역 성우이벤트 업계의 강남 셔츠룸 전문 정보를 제공합니다. 2025년 최신 트렌드와 고객 리뷰, 전문가 분석 데이터를 바탕으로 신뢰도 높은 상세 가이드를 확인하세요.">
-    <meta name="keywords" content="강남 셔츠룸, 마포 성우이벤트, 셔츠룸 정보, 강남 유흥, 이벤트 업소, 셔츠룸 가이드">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <link rel="canonical" href="https://sf-t3-1779642675702-198.maphoshirts.today/blog.html">
-    <meta property="og:title" content="마포 성우이벤트 블로그 | 강남 셔츠룸 분석 가이드">
-    <meta property="og:description" content="마포 지역 성우이벤트 업계의 강남 셔츠룸 전문 정보를 제공합니다. 2025년 최신 트렌드와 고객 리뷰, 전문가 분석 데이터를 바탕으로 신뢰도 높은 상세 가이드를 확인하세요.">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: #faf7f2;
-            color: #1a1a2e;
-            line-height: 1.8;
-        }
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        nav {
-            background: #1a1a2e;
-            padding: 16px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-        }
-        nav .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .nav-logo {
-            color: #f5e6d0;
-            font-size: 1.3rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-decoration: none;
-        }
-        .nav-links {
-            display: flex;
-            gap: 28px;
-            list-style: none;
-        }
-        .nav-links a {
-            color: #e0d5c0;
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 400;
-            transition: color 0.3s;
-        }
-        .nav-links a:hover {
-            color: #d4a373;
-        }
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-        }
-        .hamburger span {
-            width: 26px;
-            height: 2px;
-            background: #f5e6d0;
-            border-radius: 2px;
-        }
-        header {
-            background: linear-gradient(135deg, #2b2d42 0%, #1a1a2e 100%);
-            padding: 60px 0 50px;
-            text-align: center;
-            border-bottom: 4px solid #d4a373;
-        }
-        header .container {
-            max-width: 800px;
-        }
-        header h1 {
-            font-size: 2.6rem;
-            color: #f5e6d0;
-            font-weight: 700;
-            margin-bottom: 16px;
-            letter-spacing: -0.5px;
-        }
-        header p {
-            font-size: 1.1rem;
-            color: #c9b99a;
-            font-weight: 300;
-        }
-        .contact-p {
-            display: none;
-        }
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                background: #1a1a2e;
-                position: absolute;
-                top: 60px;
-                right: 0;
-                width: 200px;
-                padding: 20px;
-                border-radius: 0 0 8px 8px;
-                box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            }
-            .nav-links.active {
-                display: flex;
-            }
-            .hamburger {
-                display: flex;
-            }
-            header h1 {
-                font-size: 1.8rem;
-            }
-        }
-        .blog-post {
-            padding: 60px 0;
-            background: #fff;
-        }
-        .blog-post .container {
-            max-width: 780px;
-        }
-        .blog-post h2 {
-            font-size: 1.9rem;
-            color: #1a1a2e;
-            margin-bottom: 24px;
-            border-left: 5px solid #d4a373;
-            padding-left: 20px;
-            font-weight: 700;
-        }
-        .blog-post h3 {
-            font-size: 1.3rem;
-            color: #2b2d42;
-            margin-top: 36px;
-            margin-bottom: 12px;
-            font-weight: 600;
-        }
-        .blog-post p {
-            font-size: 1.05rem;
-            color: #333;
-            margin-bottom: 18px;
-            text-align: justify;
-        }
-        .blog-post .highlight-box {
-            background: #f8f3eb;
-            border-left: 4px solid #d4a373;
-            padding: 20px 24px;
-            margin: 30px 0;
-            border-radius: 0 8px 8px 0;
-        }
-        .blog-post .highlight-box p {
-            margin-bottom: 0;
-            font-weight: 500;
-            color: #2b2d42;
-        }
-        .blog-post ul {
-            margin: 18px 0 24px;
-            padding-left: 24px;
-        }
-        .blog-post ul li {
-            margin-bottom: 10px;
-            font-size: 1.02rem;
-            color: #333;
-        }
-        .blog-post .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 30px 0;
-            font-size: 0.95rem;
-        }
-        .blog-post .data-table th {
-            background: #1a1a2e;
-            color: #f5e6d0;
-            padding: 12px 16px;
-            text-align: left;
-            font-weight: 600;
-        }
-        .blog-post .data-table td {
-            border: 1px solid #ddd;
-            padding: 12px 16px;
-            background: #faf7f2;
-        }
-        .blog-post .data-table tr:nth-child(even) td {
-            background: #f5efe6;
-        }
-        .blog-post .author-note {
-            margin-top: 40px;
-            padding-top: 24px;
-            border-top: 2px solid #e0d5c0;
-            font-style: italic;
-            color: #555;
-        }
-        footer {
-            background: #1a1a2e;
-            color: #c9b99a;
-            text-align: center;
-            padding: 40px 0;
-            font-size: 0.9rem;
-        }
-        footer a {
-            color: #d4a373;
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>마포 성우이벤트 블로그 | 강남 셔츠룸 분석 가이드</title>
+ <meta name="description" content="마포 지역 성우이벤트 업계의 강남 셔츠룸 전문 정보를 제공합니다. 2025년 최신 트렌드와 고객 리뷰, 전문가 분석 데이터를 바탕으로 신뢰도 높은 상세 가이드를 확인하세요.">
+ <meta name="keywords" content="강남 셔츠룸, 마포 성우이벤트, 셔츠룸 정보, 강남 유흥, 이벤트 업소, 셔츠룸 가이드">
+ <link rel="canonical" href="https://sf-t3-1779642675702-198.maphoshirts.today/blog.html">
+ <meta property="og:title" content="마포 성우이벤트 블로그 | 강남 셔츠룸 분석 가이드">
+ <meta property="og:description" content="마포 지역 성우이벤트 업계의 강남 셔츠룸 전문 정보를 제공합니다. 2025년 최신 트렌드와 고객 리뷰, 전문가 분석 데이터를 바탕으로 신뢰도 높은 상세 가이드를 확인하세요.">
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+ background: #faf7f2;
+ color: #1a1a2e;
+ line-height: 1.8;
+ }
+ .container {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+ nav {
+ background: #1a1a2e;
+ padding: 16px 0;
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+ }
+ nav .container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .nav-logo {
+ color: #f5e6d0;
+ font-size: 1.3rem;
+ font-weight: 700;
+ letter-spacing: 1px;
+ text-decoration: none;
+ }
+ .nav-links {
+ display: flex;
+ gap: 28px;
+ list-style: none;
+ }
+ .nav-links a {
+ color: #e0d5c0;
+ text-decoration: none;
+ font-size: 0.95rem;
+ font-weight: 400;
+ transition: color 0.3s;
+ }
+ .nav-links a:hover {
+ color: #d4a373;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ }
+ .hamburger span {
+ width: 26px;
+ height: 2px;
+ background: #f5e6d0;
+ border-radius: 2px;
+ }
+ header {
+ background: linear-gradient(135deg, #2b2d42 0%, #1a1a2e 100%);
+ padding: 60px 0 50px;
+ text-align: center;
+ border-bottom: 4px solid #d4a373;
+ }
+ header .container {
+ max-width: 800px;
+ }
+ header h1 {
+ font-size: 2.6rem;
+ color: #f5e6d0;
+ font-weight: 700;
+ margin-bottom: 16px;
+ letter-spacing: -0.5px;
+ }
+ header p {
+ font-size: 1.1rem;
+ color: #c9b99a;
+ font-weight: 300;
+ }
+ .contact-p {
+ display: none;
+ }
+ @media (max-width: 768px) {
+ .nav-links {
+ display: none;
+ flex-direction: column;
+ background: #1a1a2e;
+ position: absolute;
+ top: 60px;
+ right: 0;
+ width: 200px;
+ padding: 20px;
+ border-radius: 0 0 8px 8px;
+ box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+ }
+ .nav-links.active {
+ display: flex;
+ }
+ .hamburger {
+ display: flex;
+ }
+ header h1 {
+ font-size: 1.8rem;
+ }
+ }
+ .blog-post {
+ padding: 60px 0;
+ background: #fff;
+ }
+ .blog-post .container {
+ max-width: 780px;
+ }
+ .blog-post h2 {
+ font-size: 1.9rem;
+ color: #1a1a2e;
+ margin-bottom: 24px;
+ border-left: 5px solid #d4a373;
+ padding-left: 20px;
+ font-weight: 700;
+ }
+ .blog-post h3 {
+ font-size: 1.3rem;
+ color: #2b2d42;
+ margin-top: 36px;
+ margin-bottom: 12px;
+ font-weight: 600;
+ }
+ .blog-post p {
+ font-size: 1.05rem;
+ color: #333;
+ margin-bottom: 18px;
+ text-align: justify;
+ }
+ .blog-post .highlight-box {
+ background: #f8f3eb;
+ border-left: 4px solid #d4a373;
+ padding: 20px 24px;
+ margin: 30px 0;
+ border-radius: 0 8px 8px 0;
+ }
+ .blog-post .highlight-box p {
+ margin-bottom: 0;
+ font-weight: 500;
+ color: #2b2d42;
+ }
+ .blog-post ul {
+ margin: 18px 0 24px;
+ padding-left: 24px;
+ }
+ .blog-post ul li {
+ margin-bottom: 10px;
+ font-size: 1.02rem;
+ color: #333;
+ }
+ .blog-post .data-table {
+ width: 100%;
+ border-collapse: collapse;
+ margin: 30px 0;
+ font-size: 0.95rem;
+ }
+ .blog-post .data-table th {
+ background: #1a1a2e;
+ color: #f5e6d0;
+ padding: 12px 16px;
+ text-align: left;
+ font-weight: 600;
+ }
+ .blog-post .data-table td {
+ border: 1px solid #ddd;
+ padding: 12px 16px;
+ background: #faf7f2;
+ }
+ .blog-post .data-table tr:nth-child(even) td {
+ background: #f5efe6;
+ }
+ .blog-post .author-note {
+ margin-top: 40px;
+ padding-top: 24px;
+ border-top: 2px solid #e0d5c0;
+ font-style: italic;
+ color: #555;
+ }
+ footer {
+ background: #1a1a2e;
+ color: #c9b99a;
+ text-align: center;
+ padding: 40px 0;
+ font-size: 0.9rem;
+ }
+ footer a {
+ color: #d4a373;
+ text-decoration: none;
+ }
+ footer a:hover {
+ text-decoration: underline;
+ }
+ </style>
   <meta property="og:url" content="https://sf-t3-1779642675702-198.maphoshirts.today/blog.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <a href="/" class="nav-logo">마포 성우이벤트</a>
-            <ul class="nav-links">
-                <li><a href="/">홈</a></li>
-                <li><a href="/about">소개</a></li>
-                <li><a href="/blog">블로그</a></li>
-                <li><a href="/contact">문의</a></li>
-            </ul>
-            <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+ <nav>
+ <div class="container">
+ <a href="/" class="nav-logo">마포 성우이벤트</a>
+ <ul class="nav-links">
+ <li><a href="/">홈</a></li>
+ <li><a href="/about">소개</a></li>
+ <li><a href="/blog">블로그</a></li>
+ <li><a href="/contact">문의</a></li>
+ </ul>
+ <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+ <span></span>
+ <span></span>
+ <span></span>
+ </div>
+ </div>
+ </nav>
 
-    <header>
-        <div class="container">
-            <h1>블로그 | 강남 셔츠룸 인사이트</h1>
-            <p>마포 성우이벤트 업계 전문가가 분석한 2025년 최신 데이터 기반 가이드</p>
-        </div>
-    </header>
+ <header>
+ <div class="container">
+ <h1>블로그 | 강남 셔츠룸 인사이트</h1>
+ <p>마포 성우이벤트 업계 전문가가 분석한 2025년 최신 데이터 기반 가이드</p>
+ </div>
+ </header>
 
 <main class="container">
 <article class="blog-post">
